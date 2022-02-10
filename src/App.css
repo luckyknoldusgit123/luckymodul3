@@ -1,0 +1,80 @@
+/* APP DASHBOARD */
+section {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.main-heading {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.comment_btn {
+  font-size: 12px;
+  cursor: pointer;
+  background: black;
+  border: 1px solid blanchedalmond;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.comment_btn:focus {
+  outline: none;
+}
+
+.comment_btn:hover,
+.comment_btn:active {
+  background-color: darkcyan;
+  border-color: darkcyan;
+}
+
+/* COMMENTS PEOPLES STYLE  */
+
+.comment_container {
+  margin-bottom: 20px;
+}
+.user_email {
+  font-size: 18px;
+  color: darksalmon;
+  text-align: left;
+}
+.comments_body {
+  font-size: 12px;
+  color: darkgray;
+  text-align: left;
+}
+/* POSTS STYLE */
+.post_section {
+  background: black;
+  padding: 30px 200px;
+}
+.post {
+  margin: 23px 200px 70px;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 0px 15px 14px rgb(0 0 0 / 30%);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 22px;
+  color: #f7e702;
+  text-align: left;
+}
+
+.content_body {
+  color: #eccf77;
+  text-align: left;
+  margin: 0;
+  font-size: 15px;
+}
+
